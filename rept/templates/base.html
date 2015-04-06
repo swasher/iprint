@@ -55,18 +55,20 @@
                 <li><a href="{% url 'create_new_order' %}"><span class="glyphicon glyphicon-stats"></span>
                     Create new order</a></li>
             </ul>
+
             <ul class="nav navbar-nav">
                 <li><a href="{% url 'stanzforms.views.doska_list' %}"><span class="glyphicon glyphicon-list"></span>
                     Штанцы</a></li>
             </ul>
-            <ul class="nav navbar-nav">
-                <li><a href="#"><span class="glyphicon glyphicon-cog"></span>
-                    ###</a></li>
-            </ul>
 
             <ul class="nav navbar-nav">
                 <li><a href="http://upload.tes.pp.ua:9181/" target="_blank"><span class="glyphicon glyphicon-dashboard"></span>
-                    ###</a></li>
+                    rq-dashboard???</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav">
+                <li><a href="{% url 'about' %}"><span class="glyphicon glyphicon-tag"></span>
+                    About</a></li>
             </ul>
 
             {% if user.is_authenticated %}

@@ -1,8 +1,13 @@
+#system-wide [only develop side]
+#fabric
+#fabtools
+#pyyaml
+
 django
 django-grappelli
 django-bootstrap3-datetimepicker
 django-crispy-forms
 Pillow
-invoke
 #django-nested-inline
 #reportlab
+uwsgi

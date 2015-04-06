@@ -20,6 +20,10 @@ def login_redirect(request):
     return redirect('grid')
 
 
+def about(request):
+    return render_to_response('about.html')
+
+
 def login(request):
     context = RequestContext(request)
     if request.method == 'POST':
