@@ -10,4 +10,4 @@ django-crispy-forms
 Pillow
 #django-nested-inline
 #reportlab
-uwsgi
+
